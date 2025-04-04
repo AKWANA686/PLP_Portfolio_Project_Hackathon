@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio showcasing my projects and skills.">
+    <meta name="keywords" content="portfolio, web developer, projects, skills">
+    <title>Personal Portfolio</title>
+
+    <!-- CSS link for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome for logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo"><a href="index.html"  class="active">My Portfolio</a></div>
+        <nav id="desktop-navbar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <input type="checkbox" id="mobile-nav-toggle" aria-hidden="true" hidden>
+        <label for="mobile-nav-toggle" id="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        <nav id="mobile-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html"  class="active">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- About section starts here -->
+        <section class="about" id="about">
+            <div class="about-header">
+                <h2>About Me</h2>
+                <div class="title"></div>
+                <p>I am a web developer with a strong foundation in HTML, CSS, and JavaScript. I enjoy building
+                    user-friendly and
+                    visually appealing websites. My goal is to create seamless user experiences through clean and
+                    efficient code.
+                </p>
+            </div>
+
+            <div class="about-box">
+                <div class="about-card">
+                    <i class="fas fa fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Specializing in responsive design and interactive user iterfaces using modern HTML, CSS and
+                        Javascript frameworks.</p>
+                </div>
+
+                <div class="about-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Development</h3>
+                    <p>Building websites that work well in all devices and ensuring that they work perfectly on mobile.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Performance Optimisation</h3>
+                    <p>Creating fast-loading websites with optimized code and assets for better user experience.</p>
+                </div>
+            </div>
+        </section>
+        <!-- About section ends here -->
+    </main>
+    <!-- Footer Section Starts here-->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com/sah.prestor" class="social-link facebook" target="_blank"
+                    aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://x.com/AkwanaOliv90823" class="social-link twitter" target="_blank"
+                    aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/oliver-akwana-3856b71b3/" class="social-link linkedin"
+                    target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:akwanaoliver@gmail.com" class="social-link gmail" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/+254796508916" class="social-link whatsapp" target="_blank"
+                    aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 <a href="#">Akwana Oliver</a>. All Rights Reserved.</p>
+                <p>Designed with <span style="color: var(--accent-color);">LOVE</span> by AKWANA</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section ends here-->
+</body>
+
+</html>
