@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio showcasing my projects and skills.">
+    <meta name="keywords" content="portfolio, web developer, projects, skills">
+    <title>Personal Portfolio</title>
+
+    <!-- CSS link for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome for logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo"><a href="index.html" class="active">My Portfolio</a></div>
+        <nav id="desktop-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contacts.html" class="active">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <input type="checkbox" id="mobile-nav-toggle" aria-hidden="true" hidden>
+        <label for="mobile-nav-toggle" id="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        <nav id="mobile-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contacts.html" class="active">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<!-- Contact Section Starts here-->
+<section class="contact" id="contact">
+    <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="divider"></div>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-method">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Email</h3>
+                    <a href="mailto:your.email@example.com">akwanaoliver@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="contact-method">
+                <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Phone</h3>
+                    <a href="tel:+254712345690">+254 796 508 960</a>
+                </div>
+            </div>
+
+            <div class="contact-method">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Location</h3>
+                    <p>Kasarani, Nairobi</p>
+                </div>
+            </div>
+
+            <div class="contact-method">
+                <div class="contact-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/oliver-akwana-3856b71b3/"
+                        target="_blank">linkedin.com/in/yourprofile</a>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" class="form-control" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+        </form>
+    </div>
+</section>
+<!-- Contact Section ends here-->
+</main>
+<!-- Footer Section Starts here-->
+<footer>
+    <div class="footer-content">
+        <div class="social-links">
+            <a href="https://www.facebook.com/sah.prestor" class="social-link facebook" target="_blank"
+                aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://x.com/AkwanaOliv90823" class="social-link twitter" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/oliver-akwana-3856b71b3/" class="social-link linkedin" target="_blank"
+                aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:akwanaoliver@gmail.com" class="social-link gmail" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/+254796508916" class="social-link whatsapp" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 <a href="#">Akwana Oliver</a>. All Rights Reserved.</p>
+            <p>Designed with <span style="color: var(--accent-color);">LOVE</span> by AKWANA</p>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section ends here-->
+</body>
+
+</html>
