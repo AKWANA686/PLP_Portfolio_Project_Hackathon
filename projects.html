@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio showcasing my projects and skills.">
+    <meta name="keywords" content="portfolio, web developer, projects, skills">
+    <title>Personal Portfolio</title>
+
+    <!-- CSS link for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome for logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo"><a href="index.html" class="active">My Portfolio</a></div>
+        <nav id="desktop-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <input type="checkbox" id="mobile-nav-toggle" aria-hidden="true" hidden>
+        <label for="mobile-nav-toggle" id="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        <nav id="mobile-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html"  class="active">Projects</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<!-- Projects Section Starts here-->
+<section class="projects-section">
+    <div class="section-header">
+        <h2>Featured Projects</h2>
+        <div class="divider"></div>
+    </div>
+
+    <div class="projects-grid">
+        <!-- Calculator Project -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    alt="Calculator Project">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Modern Calculator</h3>
+                <p class="project-description">A sleek, responsive calculator with basic arithmetic operations and a
+                    clean UI design.</p>
+
+                <div class="project-features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Addition, subtraction, multiplication, division</li>
+                        <li>Clear and backspace functionality</li>
+                        <li>Responsive design for all devices</li>
+                    </ul>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/AKWANA686/Project-Calculator.git" class="project-link view-code">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rock Paper Scissors Project -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="https://imgs.search.brave.com/C1nO_NuZPdTow8_wczZf1suO_NTrZ7QjG1x-EwBYi7k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzE0LzkzLzg3/LzM2MF9GXzIxNDkz/ODc3Ml9jdldlQkd0/bmQ4R3FkN3d0cDdD/cWRwN3FSUU1oS0JD/bi5qcGc"
+                    alt="Rock Paper Scissors Game">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Rock Paper Scissors</h3>
+                <p class="project-description">A fun interactive game with score tracking and animated results.</p>
+
+                <div class="project-features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Player vs computer gameplay</li>
+                        <li>Score tracking across sessions</li>
+                        <li>Animated win/lose indicators</li>
+                    </ul>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/AKWANA686/rock_paper_scissors.git" class="project-link view-code">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Landing Page Project -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    alt="Product Landing Page">
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Product Landing Page</h3>
+                <p class="project-description">A modern, conversion-focused landing page with smooth scrolling sections.
+                </p>
+
+                <div class="project-features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Responsive navigation menu</li>
+                        <li>Product feature highlights</li>
+                        <li>Sign up page</li>
+                    </ul>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/AKWANA686/Project-landing-page.git" class="project-link view-code">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Projects Section ends here-->
+</main>
+<!-- Footer Section Starts here-->
+<footer>
+    <div class="footer-content">
+        <div class="social-links">
+            <a href="https://www.facebook.com/sah.prestor" class="social-link facebook" target="_blank"
+                aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://x.com/AkwanaOliv90823" class="social-link twitter" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/oliver-akwana-3856b71b3/" class="social-link linkedin" target="_blank"
+                aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:akwanaoliver@gmail.com" class="social-link gmail" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/+254796508916" class="social-link whatsapp" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 <a href="#">Akwana Oliver</a>. All Rights Reserved.</p>
+            <p>Designed with <span style="color: var(--accent-color);">LOVE</span> by AKWANA</p>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section ends here-->
+</body>
+
+</html>
