@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio showcasing my projects and skills.">
+    <meta name="keywords" content="portfolio, web developer, projects, skills">
+    <title>Personal Portfolio</title>
+
+    <!-- CSS link for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome for logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <a id="top"></a>
+    <header>
+        <div id="logo"><a href="index.html" class="active">My Portfolio</a></div>
+        <nav id="desktop-navbar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <input type="checkbox" id="mobile-nav-toggle" aria-hidden="true" hidden>
+        <label for="mobile-nav-toggle" id="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        <nav id="mobile-navbar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Introduction section starts here -->
+        <section class="home">
+            <img class="home-image"  src="/images/coding pic.jpg" alt="This is an image of codes">
+            <div class="home-content">
+                <h1>Akwana Oliver Muleli</h1>
+                <h2>Web Developer</h2>
+                <p>Welcome to my portfolio! I am a passionate web developer with a keen interest in creating dynamic and responsive web
+                applications. Explore my projects and skills below.</p>
+
+                <div class="button-group">
+                    <a href="projects.html" class="btn">Projects</a>
+                    <a href="skills.html" class="btn">Skills</a>
+                    <a href="contacts.html" class="btn">Contact Me</a>
+                </div>
+            </div>   
+        </section>
+        <!-- Introduction section ends here -->
+
+        <!-- About section starts here -->
+        <section class="about" id="about">
+            <div class="about-header">
+                <h2>About Me</h2>
+                <div class="title"></div>
+                <p>I am a web developer with a strong foundation in HTML, CSS, and JavaScript. I enjoy building user-friendly and
+                visually appealing websites. My goal is to create seamless user experiences through clean and efficient code.
+                </p>
+            </div>
+
+            <div class="about-box">
+                <div class="about-card">
+                    <i class="fas fa fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Specializing in responsive design and interactive user iterfaces using modern HTML, CSS and Javascript frameworks.</p>
+                </div>
+
+                <div class="about-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Development</h3>
+                    <p>Building websites that work well in all devices and ensuring that they work perfectly on mobile.</p>
+                </div>
+
+                <div class="about-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Performance Optimisation</h3>
+                    <p>Creating fast-loading websites with optimized code and assets for better user experience.</p>
+                </div>
+            </div>
+        </section>
+        <!-- About section ends here -->
+
+        <!-- My Skills section starts here -->
+        <section class="skills-section">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <p>My current proficiency across various web technologies</p>
+            </div>
+        
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div>
+                            <div class="skill-name">HTML5</div>
+                            <div class="skill-level">Intermediate Level</div>
+                        </div>
+                    </div>
+                    <div class="skill-details">
+                        Building semantic structure with proper document hierarchy. Experience with forms, tables, and basic
+                        accessibility practices.
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar html-progress"></div>
+                    </div>
+                    <div class="progress-text">65%</div>
+                </div>
+        
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div>
+                            <div class="skill-name">CSS3</div>
+                            <div class="skill-level">Intermediate Level</div>
+                        </div>
+                    </div>
+                    <div class="skill-details">
+                        Creating responsive layouts with Flexbox and Grid. Implementing animations, transitions, and maintaining
+                        style consistency across projects.
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar css-progress"></div>
+                    </div>
+                    <div class="progress-text">60%</div>
+                </div>
+        
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div>
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-level">Beginner Level</div>
+                        </div>
+                    </div>
+                    <div class="skill-details">
+                        Fundamentals including variables, functions, and DOM manipulation. Beginning to explore ES6+ features
+                        like arrow functions and template literals.
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar js-progress"></div>
+                    </div>
+                    <div class="progress-text">45%</div>
+                </div>
+        
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div>
+                            <div class="skill-name">React</div>
+                            <div class="skill-level">Beginner Level</div>
+                        </div>
+                    </div>
+                    <div class="skill-details">
+                        Learning component-based architecture and JSX syntax. Understanding props and basic state management in
+                        functional components.
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar react-progress"></div>
+                    </div>
+                    <div class="progress-text">40%</div>
+                </div>
+        
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div>
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-level">Beginner Level</div>
+                        </div>
+                    </div>
+                    <div class="skill-details">
+                        Basic server setup with Express. Understanding routing and middleware concepts. Beginning to work with
+                        REST API development.
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar node-progress"></div>
+                    </div>
+                    <div class="progress-text">35%</div>
+                </div>
+        
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div>
+                            <div class="skill-name">MongoDB</div>
+                            <div class="skill-level">Beginner Level</div>
+                        </div>
+                    </div>
+                    <div class="skill-details">
+                        Basic CRUD operations and simple queries. Understanding NoSQL document structure and beginning to
+                        explore Mongoose ODM.
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar mongo-progress"></div>
+                    </div>
+                    <div class="progress-text">30%</div>
+                </div>
+            </div>
+        </section>
+        <!-- My Skills section ends here -->
+
+        <!-- Education Section Starts here-->
+        <section class="education-section">
+            <div class="section-header">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="education-container">
+                <!-- Current Education -->
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="education-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div>
+                            <h3>Software Engineering</h3>
+                            <p class="institution">Power Learn Project (PLP)</p>
+                        </div>
+                        <span class="education-date">Feb 2025 - Present</span>
+                    </div>
+                    <div class="education-details">
+                        <ul>
+                            <li>Currently pursuing diploma in software engineering</li>
+                            <li>Specializing in full-stack web development</li>
+                            <li>Core technologies: JavaScript, Python, React, Node.js</li>
+                            <li>Expected completion: 2026</li>
+                        </ul>
+                    </div>
+                    <div class="education-actions">
+                        <a href="plp_certificate.pdf" class="cv-btn" download>
+                            <i class="fas fa-file-certificate"></i> Certificate
+                        </a>
+                        <a href="tech_resume.pdf" class="cv-btn" download>
+                            <i class="fas fa-file-user"></i> Tech Resume
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Previous Education -->
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="education-icon">
+                            <i class="fas fa-procedures"></i>
+                        </div>
+                        <div>
+                            <h3>Diploma in Perioperative Theatre Technology</h3>
+                            <p class="institution">Nairobi Women's Hospital College</p>
+                        </div>
+                        <span class="education-date">2019 - 2022</span>
+                    </div>
+                    <div class="education-details">
+                        <ul>
+                            <li>Specialized in surgical assistance and operating room technology</li>
+                            <li>Comprehensive training in patient care during surgical procedures</li>
+                            <li>Clinical rotations in major Nairobi hospitals</li>
+                            <li>Graduated with honors</li>
+                        </ul>
+                    </div>
+                    <div class="education-actions">
+                        <a href="docs/Certificate.pdf" class="cv-btn" download>
+                            <i class="fas fa-file-certificate"></i> Diploma
+                        </a>
+                        <a href="docs/OLIVER CV.pdf" class="cv-btn" download>
+                            <i class="fas fa-file-user"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Education Section Ends here-->
+
+        <!-- Interests Section Starts Here -->
+        <section class="interests" id="interests">
+            <div class="section-header">
+                <h2>My Interests</h2>
+                <div class="title"></div>
+            </div>
+        
+            <div class="interests-container">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Passionate about building responsive, accessible websites with clean code. Enjoy learning new frameworks
+                        and design patterns.</p>
+                </div>
+        
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Fascinated by creating intuitive user interfaces and improving user experiences through thoughtful
+                        design.</p>
+                </div>
+        
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Emerging Tech</h3>
+                    <p>Interested in AI, machine learning, and how new technologies can solve real-world problems.</p>
+                </div>
+        
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Game Development</h3>
+                    <p>Enjoy exploring game design principles and creating interactive experiences in my free time.</p>
+                </div>
+        
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Continuous Learning</h3>
+                    <p>Committed to lifelong learning through online courses, tech books, and building personal projects.</p>
+                </div>
+        
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Music Production</h3>
+                    <p>Love creating electronic music and exploring the intersection of technology and art.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Interests Section Ends here-->
+
+        <!-- Projects Section Starts here-->
+        <section class="projects-section">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="projects-grid">
+                <!-- Calculator Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Calculator Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Modern Calculator</h3>
+                        <p class="project-description">A sleek, responsive calculator with basic arithmetic operations and a
+                            clean UI design.</p>
+        
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Addition, subtraction, multiplication, division</li>
+                                <li>Clear and backspace functionality</li>
+                                <li>Responsive design for all devices</li>
+                            </ul>
+                        </div>
+        
+                        <div class="project-links">
+                            <a href="https://github.com/AKWANA686/Project-Calculator.git" class="project-link view-code">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Rock Paper Scissors Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://imgs.search.brave.com/C1nO_NuZPdTow8_wczZf1suO_NTrZ7QjG1x-EwBYi7k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzE0LzkzLzg3/LzM2MF9GXzIxNDkz/ODc3Ml9jdldlQkd0/bmQ4R3FkN3d0cDdD/cWRwN3FSUU1oS0JD/bi5qcGc"
+                            alt="Rock Paper Scissors Game">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Rock Paper Scissors</h3>
+                        <p class="project-description">A fun interactive game with score tracking and animated results.</p>
+        
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Player vs computer gameplay</li>
+                                <li>Score tracking across sessions</li>
+                                <li>Animated win/lose indicators</li>
+                            </ul>
+                        </div>
+        
+                        <div class="project-links">
+                            <a href="https://github.com/AKWANA686/rock_paper_scissors.git" class="project-link view-code">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Landing Page Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Product Landing Page">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Product Landing Page</h3>
+                        <p class="project-description">A modern, conversion-focused landing page with smooth scrolling sections.
+                        </p>
+        
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Responsive navigation menu</li>
+                                <li>Product feature highlights</li>
+                                <li>Sign up page</li>
+                            </ul>
+                        </div>
+        
+                        <div class="project-links">
+                            <a href="https://github.com/AKWANA686/Project-landing-page.git" class="project-link view-code">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section ends here-->
+
+        <!-- Contact Section Starts here-->
+        <section class="contact" id="contact">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:your.email@example.com">akwanaoliver@gmail.com</a>
+                        </div>
+                    </div>
+        
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+254712345690">+254 796 508 960</a>
+                        </div>
+                    </div>
+        
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Kasarani, Nairobi</p>
+                        </div>
+                    </div>
+        
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/oliver-akwana-3856b71b3/" target="_blank">linkedin.com/in/yourprofile</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+        
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+        <!-- Contact Section ends here-->
+    </main>
+    <!-- Footer Section Starts here-->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com/sah.prestor" class="social-link facebook" target="_blank"
+                    aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://x.com/AkwanaOliv90823" class="social-link twitter" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/oliver-akwana-3856b71b3/" class="social-link linkedin" target="_blank"
+                    aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:akwanaoliver@gmail.com" class="social-link gmail" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/+254796508916" class="social-link whatsapp" target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 <a href="#">Akwana Oliver</a>. All Rights Reserved.</p>
+                <p>Designed with <span style="color: var(--accent-color);">LOVE</span> by AKWANA</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section ends here-->
+    <a href="#top" class="back-to-top" title="Back to Top">↑</a>
+</body>
+</html>
